@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot("6175455732:AAE4MSqoBIezrNjz71S2pSkcORpt5BWd7EE")
+bot = telebot.TeleBot("TOKEN")
 
 markup = types.ReplyKeyboardMarkup(row_width=2)
 itembtn1 = types.KeyboardButton('/start') 
